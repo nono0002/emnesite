@@ -5,11 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forside</title>
     <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="generel.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- slut -->
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="fotos/logo.png" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="artister.html">Artister</a></li>
+          <li><a href="undersøgelser.html">Undersøgelser</a></li>
+          <li><a href="om_mig.html">Om Mig</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
     <main>
-      <section class="1_hero_forside">
+      <section class="hero_forside">
         <div class="intro_forside">
           <h1>Velkommen</h1>
           <p>
@@ -32,35 +60,43 @@
           </div>
         </div>
       </section>
-      <section class="2_featured_artister">
-        <div><h1>Featured Artister</h1></div>
+      <section class="featured_artister">
+        <div class="h1_featured_artister"><h1>Featured Artister</h1></div>
         <div class="flexbox">
-          <div class="flexbox1">
-            <img src="fotos/forside/tyrrel_forside.png" />
-            <h3>Tyrrell Winston</h3>
-            <p>
-              Se mere af Tyrrell Winston. Fra slidte basketballs til
-              cigaretskod. Hans kunst forvandler efterladte spor til nye
-              fortællinger.
-            </p>
-          </div>
-          <div class="flexbox2">
-            <img src="fotos/forside/daniel_forside.png" />
-            <p>
-              Daniel Arsham. Hvor fremtid og fortid smelter sammen. Kunst som
-              forvandler hverdagsobjekter til tidløse arkæologiske fund.
-            </p>
-          </div>
-          <div class="flexbox3">
-            <img src="fotos/forside/soldier_forside.png" />
-            <p>
-              “Soldier” forener camouflage, tro og identitet. Hans kunst
-              afslører personlige og kulturelle historier i stærke billeder.
-            </p>
-          </div>
+          <a href="artister.html"
+            ><div class="flexbox1">
+              <img src="fotos/forside/tyrrel_forside.png" />
+              <h3>Tyrrell Winston</h3>
+              <p>
+                Se mere af Tyrrell Winston. Fra slidte basketballs til
+                cigaretskod. Hans kunst forvandler efterladte spor til nye
+                fortællinger.
+              </p>
+            </div>
+          </a>
+          <a href="artister.html"
+            ><div class="flexbox2">
+              <img src="fotos/forside/daniel_forside.png" />
+              <h3>Daniel Arsham</h3>
+              <p>
+                Daniel Arsham. Hvor fremtid og fortid smelter sammen. Kunst som
+                forvandler hverdagsobjekter til tidløse arkæologiske fund.
+              </p>
+            </div>
+          </a>
+          <a href="artister.html">
+            <div class="flexbox3">
+              <img src="fotos/forside/soldier_forside.png" />
+              <h3>Soldier</h3>
+              <p>
+                “Soldier” forener camouflage, tro og identitet. Hans kunst
+                afslører personlige og kulturelle historier i stærke billeder.
+              </p>
+            </div>
+          </a>
         </div>
       </section>
-      <section class="3_observationer">
+      <section class="observationer">
         <div class="observationer_tekst">
           <h1>Læs mere om mine observationer</h1>
           <p>
@@ -72,10 +108,10 @@
             vi alle fortolker forskellige former for nutidig og mere traditionel
             kunst !!!
           </p>
-          <button>Læs mere her</button>
+          <a href="undersøgelser.html"><button>Læs mere her</button></a>
         </div>
         <div class="læs_mere_bokse">
-          <div class="læs_mere_her_artister_box1">
+          <a href="undersøgelser.html">
             <div class="læs_mere_box1">
               <p>
                 <strong>Læs mere her</strong> - hvordan fortolker en anden
@@ -85,25 +121,29 @@
                 <img src="fotos/forside/jane_forside.png" />
               </div>
             </div>
-          </div>
-          <div class="læs_mere_box2">
-            <p>
-              <strong>Læs mere her</strong> - hvad syntes andre mennesker om
-              Olaolu Slawn's farverige stil i graffitikunst?
-            </p>
-            <div class="box2_slawn_billede">
-              <img src="fotos/forside/slawn_forside.png" />
+          </a>
+          <a href="undersøgelser.html">
+            <div class="læs_mere_box2">
+              <p>
+                <strong>Læs mere her</strong> - hvad syntes andre mennesker om
+                Olaolu Slawn's farverige stil i graffitikunst?
+              </p>
+              <div class="box2_slawn_billede">
+                <img src="fotos/forside/slawn_forside.png" />
+              </div>
             </div>
-          </div>
-          <div class="læs_mere_box3">
-            <p>
-              <strong>Læs mere her</strong> - hvem synes ellers om Tyrrell
-              Winston's udstillinger af basketbolde og andre objekter?
-            </p>
-            <div class="box3_tyrrell_billede">
-              <img src="fotos/forside/tyrrel_forside2.png" />
+          </a>
+          <a href="undersøgelser.html">
+            <div class="læs_mere_box3">
+              <p>
+                <strong>Læs mere her</strong> - hvem synes ellers om Tyrrell
+                Winston's udstillinger af basketbolde og andre objekter?
+              </p>
+              <div class="box3_tyrrell_billede">
+                <img src="fotos/forside/tyrrel_forside2.png" />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </section>
       <section class="om_mig_forside">
@@ -111,20 +151,47 @@
           <img src="fotos/forside/noah_forside.jpeg" />
         </div>
         <div class="om_mig_forside_beskrivelse">
-          <div>
-            <h1>Hvem står bag?</h1>
-            <p>
-              Jeg er Noah Noinovic, 21 år og studerer på EK på Guldbergsgade 29,
-              Nørrebro. Jeg går op i kunst, fashion og at udtrykke mig kreativt.
-              På mit site udforsker jeg artister som Olaolu Slawn, Soldier,
-              Tyrrell Winston, Daniel Arsham og Jane Dickson, og hvordan deres
-              arbejde inspirerer på tværs af kunst og kultur.
-            </p>
-          </div>
-          <button>Mere om mig</button>
+          <h1>Hvem står bag?</h1>
+          <p>
+            Jeg er Noah Noinovic, 21 år og studerer på EK på Guldbergsgade 29,
+            Nørrebro. Jeg går op i kunst, fashion og at udtrykke mig kreativt.
+            På mit site udforsker jeg artister som Olaolu Slawn, Soldier,
+            Tyrrell Winston, Daniel Arsham og Jane Dickson, og hvordan deres
+            arbejde inspirerer på tværs af kunst og kultur.
+          </p>
+          <a href="om_mig.html"><button>Mere om mig</button></a>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <!-- Left side: Logo + Site name -->
+      <div class="logo_og_site_navn">
+        <a href="index.html"
+          ><img src="fotos/logo.png" alt="mit website logo" class="logo_footer"
+        /></a>
+        <div class="site_navn">nokilikesart.dk</div>
+      </div>
+
+      <!-- Right side: Navigation + Copyright -->
+      <div class="nav_footer1">
+        <div class="nav-footer2">
+          <ul class="nav-liste">
+            <li class="nav-item"><a href="index.html">Forside</a></li>
+            <li class="nav-item"><a href="artister.html">Artister</a></li>
+            <li class="nav-item">
+              <a href="undersøgelser.html">Undersøgelser</a>
+            </li>
+            <li class="nav-item"><a href="om_mig.html">Om Mig</a></li>
+          </ul>
+        </div>
+
+        <div class="copyright_footer">
+          <p class="copyright_text">
+            &copy; 2025 noahlikesart.dk. Copyright Alle rettigheder forebeholdes
+            Noah Billeder: INTERNETTET
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
